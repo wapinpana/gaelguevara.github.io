@@ -43,7 +43,8 @@ nav {
 }
 
 .intro {
-	margin: 100 0 0 0; 
+	margin: 100 0 0 0;
+	padding: 120px;  
 }
 
 div .button {
@@ -130,6 +131,7 @@ footer {
 	width: 100%; 
 	position: absolute;
 	margin: auto;
+	padding-left: 120px;
 }
 /**********************resume***page2**********************/
 
