@@ -27,7 +27,7 @@ body {
     padding: 10px;
 }
 
-header {
+#header {
     line-height: .5; 
     padding-bottom: 2em;
 }
@@ -44,7 +44,6 @@ h1 {
     font-weight: 100;
     font-size: 25px;
     line-height: 1.5
-    padding: .3em;
 }
 
 #title {
