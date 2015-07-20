@@ -1,0 +1,77 @@
+body {
+	background-color: #B0FF92;
+	background: "https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1383231_810566732315827_383284322908137192_n.png?oh=e338cf8b1e0364cbda5e48afe5bae457&oe=560AD5FB";
+	font-family: helvetica;
+}
+
+h1 {
+	font-color: black;
+	/*transition: transform 1s linear 1s;*/
+	transition-property: font-color, left;
+	transition-duration: 2s;
+	transition-timing-function: cubic-bezier(.17,.67,.71,.42);
+	position: relative;
+	left: 0px;
+}
+
+h1: {
+				/*transition: all 1s ease;*/
+				left: 100px;
+				font-color: blue;
+			}
+
+			h2 {
+				background-color: white;
+				padding-left: 20px;
+			}
+			h3 {
+				margin-bottom: 20px;
+			}
+			button {
+				background-color: lightgrey;
+				padding: 20px; 
+
+			}
+			.everything {
+				background-color: #05668D;
+				font-size: 1.5vmax;
+				border: 1px solid black;
+
+			}	
+			#menu {
+				font-size: 30px;
+				text-align: center;
+
+			}
+			.one {
+
+				margin-left: 0px;
+				text-align: left; 
+			}
+			.two {
+				margin-left: calc(50% 80px); 
+				margin-right: 50px; 
+
+			}
+			.three {
+				float: right;
+				margin-right: 0px;
+			}
+			img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto; 
+				text-align: center;
+				width: 80%;
+				-webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    			transition:width 2s, height 2s, background-color 2s, transform 2s;
+			}
+			@media screen and (max-width: 1024px){
+            nav {
+              width: 100%; 
+            }
+            @media screen and (max-width: 768px) {
+    			body {
+        			background-color: lightblue;
+        		}
+        	}
