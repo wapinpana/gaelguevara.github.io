@@ -1,162 +1,239 @@
 body {
-	background-color: #EFF6E0;
+	background-color: #DEE5E5;
+}
+
+#wrap {
+	background-color: white;
 	width: 960px; 
+	margin: 0 auto; 
+}
+/* 960 px total across*/
+
+html, body {
+    padding: 0;
+    margin: 0;
 }
 
-/*need more practice in positioning elements on a page*/
-/***main includes all nav menu buttons*/
-.main {
-	text-align: left;  
-	font-family: arial;
-	font-size: 20px; 
-}
-
-header {
-	margin-left: auto;
-	margin-right: auto;
+#wrap {
 	width: 960px;
+	margin: auto;
 }
 
-/**** profile picture ***/
-
-.profile {
-	margin-top: 50px;
+#header {
+	padding: 0;
+    margin: 0 40px;
+    background-color: #ddd;
+    clear: both;
 }
 
-/******** index page ********/
-
-nav {
-	text-align: center; 
-	text-decoration: none;
-  	text-transform: uppercase;
-  	font-size: 15px;
-  	letter-spacing: .05em;
-  	padding: 20px; 
-  	float: right;
+#header h1 {
+    font-size: 40px;
+    font-weight: 300;
+    float: left;
+    padding-right: 0;
 }
 
-.socialbar {
-	margin-left: 100px;
-	margin-right: 100px;
-	height: 80px;
-	width: 80px;
-}
-
-.intro {
-	margin: 100 0 0 0;
-	padding: 120px;  
-}
-
-div .button {
-	height: 100px;
-    width: 120px;
-    border-color: #012838; 
-    background-color: #AEC3B0;
-    border-radius: 3px;
-    display: inline;
-  	padding: 10px 20px;
-  	margin: 0 10px;
-}
-
-.button:hover {
-	color: #37515F;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 3px;
-}
-
-/**************************links**************************/
-a {
-	color: #598392;
-	text-decoration: none;
-	font-family: Arial, sans-serif;
-
-}
-
-a:hover {
-	color: #37515F;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-/*************************headings************************/
-h1, h2 {
-	color: #37515F;
-	font-family: 'Maven Pro', sans-serif;
+#header p {
+	color: #5E807F;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	float: left;
+	margin: 0 auto;
 }
 
 h1 {
+    color: #082D0F;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 1.5
+    padding: .3em;
+}
+
+h2 {
+    color: #16DB65;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-size: 20px; 
+}
+
+#date {
+	color: #919191;
+}
+
+#nav {
+	float: left; 
+	border-bottom: 2px solid grey;
+	margin: 10px auto; 
+	width: 960px; 
+}
+#nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	font-style: none; 
 	float: left;
-	font-size: 30px;
-	padding-left: 80px;
+	padding: 20px; 
 }
 
-h3 {
-	font-style: bold;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	color: #012838
+#nav li {
+	color: white;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	float: right;
+	width: 160PX;
+  	height: 60px;
+  	background-color: #5E807F;
+  	text-align: center; 
+}
+
+#nav li a {
+	text-decoration: none; 
+	color: grey;
+}
+
+#nav li a:hover {
+	color: #082D0F;
+	font-weight: bold; 
+}
+
+#nav li:hover {
+	background-color: #9DC5BB;
+	color: #444444;
+}
+
+#main {
+	width: 540px;
 	float: left;
-
+	margin-left: 40px;
 }
 
-h4 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
+#main h3 {
+	color: #5E807F;
 }
 
-h4 span {
-	text-align: left; 
-}
-/***********************end of headings**********************/
-
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: normal;
-	margin-left: 50px;
+#main a {
+   color: #16DB65;
+   float: right; 
+   text-decoration: none;
+   padding: 2em;
 }
 
-li {
-	margin-left: auto;
-	margin-right: auto;
-	font-family: arial; 
-    display: inline;
-    padding: 0px 10px 0px 10px; 
+#main a: hover {
+    color: #aa0000;
+}
+
+#main p {
+	color: #919191;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 1.5em;  
+}
+
+.more {
+	margin-bottom: 20px;
+}
+
+#sidebar {
+	width: 300px;
+	float: right;
+	margin-right: 40px;
+	border-left: 2px solid #CAD1D1;
+	padding: 10px; 
+}
+
+#sidebar a {
+	color: #16DB65;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	color: #082D0F;
+}
+
+#sidebar p {
+	color: #919191;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 14px; 
+	line-height: 1.5em; 
+}
+
+img {
+	width: 200px; 
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;   
+}
+
+span a {
+	float: right;
+	margin: 30px 0px; 
+}
+
+hr {
+    color: #dddddd;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 
 footer {
-	background-color: #98AA99;
-	color: white;
-	float: left;
-	width: 100%; 
-	position: absolute;
-	margin: auto;
-	padding-left: 120px;
-}
-/**********************resume***page2**********************/
-
-.resume {
-	margin-top: 100px;
-	padding: 120px;
+	clear: both;
+	margin: 0 auto; 
+	background-color: #5E807F;
 }
 
-/*school logos*/
-
-.logos {
-	display: inline-block;
-	margin: auto;
-	height: 100px; 
-	width: 100px; 
+footer {
+    margin: 0;
+    padding: 20px;
+    height: 200px; 
 }
 
-/*spans used to emphasize text to bold? Not sure I really need it*/
-span {
-	font-style: italic;
-	font-weight: bold;
-	color: #37515F;
+footer ul li {
+    list-style-type: none;
+    display: inline;
 }
 
+footer li:before {
+	content: "  |  ";
+}
 
+footer li:after {
+	margin-right: 5px; 
+}
 
+footer li:first-child:before {
+	content: none; 
+}
 
-/* Style the page however you want. We took at look at color (i.e. red, #ff0000, rgb(255, 0,0)), background-color, font-weight (bold, normal), font-family (i.e. Arial, "Times New Roman"), font-style (normal, italic), text-decoration (underline, none), text-align (center, left, right).*/
+footer li {
+	text-align: center; 
+    text-decoration: none;
+    float: left;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: #9DC5BB;
+}
+
+footer p {
+	margin: 0 auto; 
+	padding: 20px;
+	text-align: center; 
+	font-family: 'Lato', sans-serif;
+	color: #9DC5BB;
+}
+
+.copyright {
+    color: #9DC5BB;
+    margin: 0 auto;
+    float: right; 
+}
+

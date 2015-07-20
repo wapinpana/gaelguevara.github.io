@@ -1,0 +1,186 @@
+/* 960 px total across*/
+#wrap {
+	width: 860px;
+	background-color: white; 
+	margin: 0 50px; 
+	padding: 0; 
+}
+
+#nav {
+	background-color: #lightblue; 
+}
+
+#right {
+	background-color: grey;
+	width: 760px;
+	float: left;
+}
+
+#left {
+	background-color: #fff;
+	width: 260px;
+	float: left;
+}
+
+#footer {
+	float: both;
+	background-color: black; 
+}
+
+
+#header {
+	text-align: left;  
+	font-family: arial;
+	font-size: 20px; 
+}
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/**** profile picture ***/
+
+.profile {
+	margin-top: 50px;
+}
+
+/******** index page ********/
+
+nav {
+	text-align: center; 
+	text-decoration: none;
+  	text-transform: uppercase;
+  	font-size: 15px;
+  	letter-spacing: .05em;
+  	padding: 20px; 
+  	float: right;
+}
+
+.socialbar {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 80px;
+	width: 80px;
+}
+
+.intro {
+	margin: 100 0 0 0;
+	padding: 120px;  
+}
+
+div .button {
+	height: 100px;
+    width: 120px;
+    border-color: #012838; 
+    background-color: #AEC3B0;
+    border-radius: 3px;
+    display: inline;
+  	padding: 10px 20px;
+  	margin: 0 10px;
+}
+
+.button:hover {
+	color: #37515F;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+/**************************links**************************/
+a {
+	color: #598392;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+
+}
+
+a:hover {
+	color: #37515F;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*************************headings************************/
+h1, h2 {
+	color: #37515F;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+h1 {
+	float: left;
+	font-size: 30px;
+	padding-left: 80px;
+}
+
+h3 {
+	font-style: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px; 
+	color: #012838
+	float: left;
+
+}
+
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+}
+
+h4 span {
+	text-align: left; 
+}
+/***********************end of headings**********************/
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	margin-left: 50px;
+}
+
+li {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial; 
+    display: inline;
+    padding: 0px 10px 0px 10px; 
+}
+
+footer {
+	background-color: #98AA99;
+	color: white;
+	float: left;
+	width: 100%; 
+	position: absolute;
+	margin: auto;
+	padding-left: 120px;
+}
+/**********************resume***page2**********************/
+
+.resume {
+	margin-top: 100px;
+	padding: 120px;
+}
+
+/*school logos*/
+
+.logos {
+	display: inline-block;
+	margin: auto;
+	height: 100px; 
+	width: 100px; 
+}
+
+/*spans used to emphasize text to bold? Not sure I really need it*/
+span {
+	font-style: italic;
+	font-weight: bold;
+	color: #37515F;
+}
+
+
+
+
+/* Style the page however you want. We took at look at color (i.e. red, #ff0000, rgb(255, 0,0)), background-color, font-weight (bold, normal), font-family (i.e. Arial, "Times New Roman"), font-style (normal, italic), text-decoration (underline, none), text-align (center, left, right).*/

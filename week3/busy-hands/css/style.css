@@ -1,0 +1,162 @@
+body {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 20px; 
+	color: #333333;
+}
+
+#main {
+	background-color: black;
+}
+
+nav {
+	background-color: black; 
+}
+
+nav a {
+	color: #cccccc;
+	background-color: black;
+	padding: 20px; 
+	text-decoration: none; 
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #96DDFC;
+	background-color: #ff7401;
+}
+
+/****top navigation bar******/
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto; 
+}
+
+#logo {
+	float: left;
+	clear: both;
+	margin: 20px 0;
+}
+
+#social {
+	float: right;
+
+}
+
+#photobanner img {
+	margin: -3px 0;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+#caption p {
+	float: left;
+	width: 75%;
+}
+
+#caption img {
+	float: left; 
+	padding: 20px 0; 
+}
+
+#home-boxes {
+	display: block;
+	text-align: left; 
+	float: left;
+	clear: both;
+	margin: 40px 0; 
+
+}
+
+.home-box {
+	width: 290px;
+	font-size: 16px; 
+	float: left;
+}
+
+.home-box img {
+	width: 300px; 
+}
+
+#box2 {
+	padding: 0 45px 0 45px;
+}
+
+.home-box img:hover {
+	border: 6px solid #E2E2E2;
+}
+.home-box img:hover {
+	border: 6px solid #F9F9F9;
+}
+
+a {
+	color: grey;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #1FA2E1;
+}
+
+footer {
+	background-color: black;
+	height: 500px; 
+	width: 100%; 
+	color: #515151; 
+	font-size: 13px;
+	clear: both;
+}
+
+footer h1 {
+	color: #cccccc;
+}
+
+.box-footer {
+	float: left;
+	display: inline-block;
+	margin: 15px; 
+}
+
+.box-footer {
+	width: 210px;
+}
+
+.middle-widget {
+	width: 400px;
+}
+
+#box-footer a {
+	display: list-item;
+	text-align: left;
+}
+
+#box-footer p:hover {
+	text-decoration: underline;
+	color: #1FA2E1;
+}
+}
+
+#copyright {
+	clear: both;
+}
+
+#companybottom {
+	clear: both;
+}
+
+hr {
+	color: grey;
+}
+
+
+Navigation
+#CCCCCC
+
+Navigation Hover
+#96DDFC
+
