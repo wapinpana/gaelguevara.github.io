@@ -3,6 +3,10 @@ body {
 	margin: 0 auto; 
 }
 
+#wrapper {
+	margin: 150px auto;
+}
+
 h1, h2, h3 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -23,6 +27,7 @@ h3 {
 }
 
 #C {
+	text-align: center; 
 	float: left;
 	padding: 10px;
 	margin: 0 20px;
@@ -30,6 +35,7 @@ h3 {
 	width: 350px;
 }
 #F {
+	text-align: center; 
 	float: right;
 	padding: 10px; 
 	border: 2px solid white;
@@ -46,6 +52,7 @@ button {
 	border: 2px solid white;
 	width: 100px;
 	height: 100px; 
+
 }
 
 button:hover {
@@ -74,6 +81,6 @@ span {
 }
 
 #bottom {
-	margin: 0 auto; 
+	margin: 60px auto; 
 	display: block; 
 }
