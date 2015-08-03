@@ -16,12 +16,12 @@ function calculateFah () {
 function calculateCel () {
 	fahNumber = document.getElementById("fahNumber").value; 
 
-	var convertTempCel = Math.round(((fahNumber - 32) / 1.8), 2) + "  Celcius";
+	var convertTempCel = Math.round((fahNumber - 32) / 1.8) + "  Celcius";
 	document.getElementById("convertTempCel").innerHTML = convertTempCel;
 
 }
 
-   document.getElementById("reset").onclick = function() {
+document.getElementById("reset").onclick = function() {
    document.getElementById("celNumber").value = "";
    document.getElementById("fahNumber").value = "";
    document.getElementById("convertTempCel").innerHTML = "";
