@@ -1,0 +1,223 @@
+body {
+	font-family: 'Lato', sans-serif; 
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #F4F4F4; 
+	display: block; 
+}
+
+/*************************header**********************/
+
+header {
+	background-color: #385063; 
+	padding: 40px;
+}
+
+#opening {
+	display: inline-block;
+	float: left;
+}
+
+nav {
+	float: left; 
+}
+
+nav a {
+	padding: 20px;
+	border: 1px solid #EF3054;
+}
+
+nav a:hover {
+	
+	background-color: #EF3054;
+}
+
+header h1 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 2em;
+	color: white;
+}
+
+header p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px; 
+}
+
+span {
+	color: #EF3054;
+}
+
+#social a {
+	background-color: #B52647;
+	padding: 20px; 
+
+}
+
+#social h2 {
+	font-family: 'Yellowtail', cursive;
+	color: white;
+	padding: 20px 0;
+	margin: 0 auto 20px auto;  
+}
+
+#social a:hover {
+	background-color: #EF3054;
+	padding: 20px;
+	font-size: 20px; 
+}
+
+#main {
+	float: right;
+	width: 70%;
+	display: block; 
+}
+
+#main h1 {
+	font-family: 'Yellowtail', cursive;
+}
+
+#side{
+	clear: both;
+	float: left;
+	border: 1px solid #28666E;
+	text-align: center;
+	width: 20%;
+	display: block; 
+}
+
+#side h1 {
+	font-family: 'Yellowtail', cursive;
+}
+
+#photos img:hover {
+	border: 6px solid #EF3054;
+	width: 100px;
+	height: 100px;  
+}
+
+img {
+	border-radius: 100%; 
+	width: 80px;
+	height: 80px; 
+	padding: 10px;
+	margin: 20px;  
+}
+
+.social {
+	float: right; /* float the #social-media element right */
+	padding: 25px 0 25px 0;
+}
+
+.social a {
+	float: left;
+	background-image: url("../images/socialNav.png");
+	margin: 3px 8px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+
+	display: block;
+	width: 48px;
+	height: 48px;
+}
+
+.social a.gmail {
+	background-position: 0px -48px;
+}
+
+.social a.twitter {
+	background-position: -48px -48px;
+}
+
+.social a.facebook {
+	background-position: -97px -48px;
+}
+
+.social a.rss {
+	background-position: -146px -48px;
+}
+
+.social a.gmail:hover {
+	background-position: 0px 0px;
+}
+
+.social a.twitter:hover {
+	background-position: -48px 0px;
+}
+
+.social a.facebook:hover {
+	background-position: -97px 0px;
+}
+
+.social a.rss:hover {
+	background-position: -146px 0px;
+}
+
+/*************************photo banner**********************/
+
+#photobanner img {
+	margin: -3px 0;
+}
+
+#banner {
+	background-image: url("https://scontent-lga1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/p206x206/527994_383930945009872_2098481192_n.jpg?oh=23aa63ddce28c2a3626eb5a7e02df8b3&oe=568436F2");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	height: 400px;
+
+}
+
+#banner h1 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter; 
+	padding: 40px; 
+}
+
+#gallery {
+	clear: both;
+	background-color: white; 
+	width: 100%;
+	height: 200px;
+}
+
+#photos {
+	margin: 0 auto 20px; 
+	text-align: center; 
+
+}
+
+#gallery h2 {
+	font-family: 'Yellowtail', cursive;
+}
+
+#footer {
+	clear: both;
+	background-color: #385063;
+	width: 100%; 
+	height: 400px; 
+}
+
+#footer p {
+	color: #F4F4F4;
+	font-family: helvetica;
+	font-weight: 100px;
+}
+
+a {
+	color: white;
+	text-decoration: none; 
+	font-family: 'Lato', sans-serif; 
+}
+
+#social {
+	clear: both;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}

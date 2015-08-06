@@ -31,6 +31,10 @@ html, body {
 	padding: 10px;
 }
 
+#header h1 {
+	padding: 40px; 
+}
+
 #nav a:hover {
 	color: #16DB65;
 }
@@ -121,6 +125,10 @@ h3:hover {
 	font-weight: 100;
 	font-size: 14px; 
 	line-height: 1.5em; 
+}
+
+#sidebar li {
+	list-style: none;
 }
 
 img {
