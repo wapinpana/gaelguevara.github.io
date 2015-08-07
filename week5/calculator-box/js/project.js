@@ -5,7 +5,9 @@ var n10 = document.getElementById("n10").innerHTML;
 var n20 = document.getElementById("n20").innerHTML;
 var n30 = document.getElementById("n30").innerHTML;
 
-var out = 0;
+var out = document.getElementById('out').innerHTML;  
+
+// document.getElementById('out').innerHTML = out;
 
 $("#red").click(function(){
   $("#out").css("background-color", "red");
@@ -56,6 +58,9 @@ $("#n30").click(function(){
   	$("#out").innerHTML = out;
 	}
 });
+
+
+
 
 
 // $("div").click(function(){
