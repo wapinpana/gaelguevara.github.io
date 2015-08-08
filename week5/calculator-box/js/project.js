@@ -5,7 +5,9 @@ var n10 = document.getElementById("n10").innerHTML;
 var n20 = document.getElementById("n20").innerHTML;
 var n30 = document.getElementById("n30").innerHTML;
 
-var out = document.getElementById('out').innerHTML;  
+// var out = document.getElementById('out').innerHTML;  
+
+var out = 0;
 
 // document.getElementById('out').innerHTML = out;
 
@@ -20,46 +22,51 @@ $("#blue").click(function(){
 $("#a10").click(function(){
 	if(parseInt(a10) == 10){
 	out = out + 10;
-  	$("#out").value = out;
+  	$("#out").html(out);
 	}
 });
 
 $("#a20").click(function(){
 	if(parseInt(a20) == 20){
 	out = out + 20;
-  	$("#out").value = out;
+  	$("#out").html(out);
 	}
 });
 
 $("#a30").click(function(){
 	if(parseInt(a30) == 30){
 	out = out + 30;
-  	$("#out").innerHTML = out;
+  	$("#out").html(out);
 	}
 });
 
 $("#n10").click(function(){
 	if(parseInt(n10) == "-10"){
 	out = out - 10;
-  	$("#out").innerHTML = out;
+  	$("#out").html(out);
 	}
 });
 
 $("#n20").click(function(){
 	if(parseInt(n20) == -20){
 	out = out - 20;
-  	$("#out").innerHTML = out;
+  	$("#out").html(out);
 	}
 });
 
 $("#n30").click(function(){
 	if(parseInt(n30) == -30){
 	out = out - 30;
-  	$("#out").innerHTML = out;
+// The three lines below do the same thing
+  	$("#out").html(out);
+
+  	$("#out")[0].innerHTML = out;
+
+  	document.getElementById("out").innerHTML = out;
 	}
 });
 
-
+// $('#out').html(totol);
 
 
 
