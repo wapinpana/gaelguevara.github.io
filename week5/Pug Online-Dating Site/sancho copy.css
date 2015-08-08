@@ -89,6 +89,7 @@ span {
 #side img {
 	height: 200px;
 	width: 200px; 
+	margin-top: 20px; 
 }
 
 #photos img:hover {
@@ -104,12 +105,13 @@ span {
 }
 
 .social {
-	float: right; /* float the #social-media element right */
+	float: right;
+	position: relative; /* float the #social-media element right */
 }
 
 .social a {
 	float: left;
-	background-image: url("../images/social_icons_sprite_2x.png");
+	background: url("../images/social_icons_sprite_2x.png") 0 0;
 	margin: 3px 8px;
 	text-indent: -9999px;
 	overflow: hidden;
