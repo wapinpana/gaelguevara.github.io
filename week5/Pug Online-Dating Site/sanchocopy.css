@@ -94,6 +94,7 @@ span {
 
 #photos img:hover {
 	border: 6px solid #EF3054;
+
 }
 
 #photos img {
@@ -101,7 +102,7 @@ span {
 	width: 200px;
 	height: 200px; 
 	padding: 10px;
- 
+ 	cursor: pointer; 
 }
 
 .social {
@@ -109,12 +110,10 @@ span {
 	position: relative; /* float the #social-media element right */
 }
 
-.social a {
+.social a { 	
 	float: left;
-	background: url("../images/social_icons_sprite_2x.png") 0 0;
+	background: url("images/social_icons_sprite_2x.png") 0 0;
 	margin: 3px 8px;
-	text-indent: -9999px;
-	overflow: hidden;
 	background-repeat: no-repeat;
 
 	display: block;
@@ -122,36 +121,36 @@ span {
 	height: 65px;
 }
 
-.social a.gmail {
-	background-position: 0px -48px;
-}
-
-.social a.twitter {
-	background-position: -48px -48px;
-}
-
 .social a.facebook {
-	background-position: -97px -48px;
-}
-
-.social a.rss {
-	background-position: -146px -48px;
-}
-
-.social a.gmail:hover {
 	background-position: 0px 0px;
 }
 
-.social a.twitter:hover {
-	background-position: -48px 0px;
+.social a.twitter {
+	background-position: -384px -0px;
+}
+
+.social a.pintrest {
+	background-position: -65px -0px;
+}
+
+.social a.rss {
+	background-position: -320px 1px;
 }
 
 .social a.facebook:hover {
-	background-position: -97px 0px;
+	background-position: 0px -65px;
+}
+
+.social a.twitter:hover {
+	background-position: -384px -65px;
+}
+
+.social a.pintrest:hover {
+	background-position: -64px -64px;
 }
 
 .social a.rss:hover {
-	background-position: -146px 0px;
+	background-position: -320px -65px;
 }
 
 /*************************photo banner**********************/
@@ -199,7 +198,19 @@ span #pug {
 
 }
 
+#display {
+	width: 400px;
+	height: 400px; 
+	border: 2px solid black;
+	margin: 0 auto;
+	display: block; 
+}
+
 /***************************footer*************************/
+#bottom {
+	margin-top: 350px; 
+}
+
 
 footer {
 	clear: both;
@@ -211,6 +222,7 @@ footer {
 footer h1, h2 {
 	color: #EF3054;
 	font-family: 'Yellowtail', cursive;
+	font-size: 2em; 
 }
 
 footer p {
@@ -223,6 +235,25 @@ footer a {
 	text-decoration: none; 
 	font-family: 'Raleway', sans-serif; 
 }
+
+.boxes a { 	
+	float: left;
+	background: url("images/social_icons_sprite_2x.png") 0 0;
+	margin: 3px 8px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 65px;
+	height: 65px;
+}
+
+.boxes a.facebook {
+	background-position: 0px 0px;
+}
+
+.boxes a.facebook:hover {
+	background-position: 0px -65px;
+}
+
 
 #bottom {
 	padding: 60px 40px 0 40px; 
