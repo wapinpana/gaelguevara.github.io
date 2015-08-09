@@ -1,0 +1,29 @@
+body {
+	background-image: url("../images/cloud_2.gif");
+	background-color: #ccc; 
+}
+
+#grass {
+	background-color: green; 
+	position: static;
+	height: 200px; 
+	width: 100%; 
+	bottom: 0;
+	left: 0;
+}
+
+h1 {
+	font-family: 'Sniglet', sans-serif;
+	font-weight: 800;
+	font-size: 3em;
+	color: #e74c3c;
+	text-align: center; 
+
+}
+
+#roost {
+	position: absolute;
+	bottom: 39px;
+	right: 49px;
+}
+
