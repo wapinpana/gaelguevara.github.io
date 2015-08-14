@@ -9,7 +9,7 @@ body {
 	background-color: green; 
 	height: 200px; 
 	width: 100%; 
-
+	position: fixed;
 }
 
 h1 {
@@ -30,7 +30,12 @@ h1 {
 	font-weight: 800;
 	font-size: 3em;
 	text-align: center; 
+	display: block;
 	margin: 0 auto;
+}
+
+#animals {
+	height: 500px; 
 }
 
 button {
@@ -46,28 +51,16 @@ button {
 	left: 0;
 }
 
-#chicken {
-	position: fixed;
-  	top: 50%;
-	left: 50%;
-}
-
 #cow1 {
-		position: fixed;
-  	top: 50%;
-	left: 50%;
-}
-
-#cow2 {
 	position: fixed;
-  	top: 50%;
-	left: 50%;
+  	top: 325px;
+	left: 500px;
 }
 
 #dancing {
   	position: fixed;
-  	top: 50%;
-	left: 50%;
+  	top: 270px;
+	left: 950px;
 }
 
 #farm {
@@ -78,25 +71,26 @@ button {
 
 #horse {
 	position: fixed;
-  	top: 50%;
-	left: 0;
+  	top: 455px;
+	left: 10px;
 }
 
 #lamb {
 	position: fixed;
-  	top: 50%;
-	left: 50%;
+  	top: 485px;
+	right: 0;
 }
 
 #sun {
-	bottom: 600px;
-	left: 900px;
+	top: 0;
+	left: 0;
+
 	position: relative;
 }
 
 #roost {
 	position: fixed;
-  	top: 50%;
+  	top: 425px;
 	left: 50%;
 }
 
