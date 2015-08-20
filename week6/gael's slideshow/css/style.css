@@ -11,7 +11,7 @@
 	display: none;
 }
 
-#slideshow img.current {
+#slideshow img.current_slide {
 	display: block;
 }
 
