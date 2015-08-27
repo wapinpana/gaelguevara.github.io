@@ -1,0 +1,485 @@
+/************************************/
+/*          WatermanPro             */
+/*              by                  */
+/*      Gael Gundin Guevara         */
+/*                                  */
+/*          Version 1.0             */
+/*                                  */
+/*                                  */
+/*                                  */
+/************************************/
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	width: 1250px;
+}
+
+header {
+	background-color: #181918; 
+	position:fixed;
+    top:0;
+    left:0;
+    width: 1407px;
+    opacity: .90;
+}
+
+h1 {
+	color: #FFE347;
+	float: left;
+	line-height: inherit;
+	padding-left: 80px;
+}
+
+header nav {
+	float: right;
+	padding-right: 80px;
+}
+
+header nav a {
+	display: inline-block;
+	color: #cccccc;
+	padding: 20px 30px; 
+	text-decoration: none; 
+	display: inline-block;
+	margin-top: 10px; 
+}
+
+header nav a:hover {
+	color: #FFE347;
+	border: 3px solid #FFE347;
+	border-radius: 2em;
+	padding: .7em 1.7em;
+	height: 1em;
+}
+
+/*  padding: .7em 1.7em;
+  behavior: url("/js/lib/css3pie/1.0beta4/PIE.htc");
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  color: #fff;
+  border: 3px solid #fff;*/
+
+
+
+header nav a:active {
+	color: black;
+	border: 2px solid #FFE347;
+	border-radius: 15px;
+	height: 1em;
+}
+
+section {
+	background-color: #E5E5E5;
+	width: 1407px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+/*********************Slider********************************/
+
+#slider {
+	width: 960px;
+	height: 630px;
+	text-align: center;
+	margin: 0 auto; 
+	overflow: hidden; 
+	position: relative;
+	border-bottom: 2px solid #FFE347;
+}
+
+#slider img {
+	display: none;
+	position: absolute;
+	width: 960px;
+	height: 560px;
+	margin-top: 80px; 
+	text-align: center;
+}
+
+#slider img.current {
+	display: block;
+}
+
+.prev, .next {
+	position: absolute;
+	background: url("../images/arrows.gif");
+	background-repeat: no-repeat;
+	opacity: .6;
+	height: 61px;
+	width: 38px;
+	top: 50%; 
+	margin-top: -30px;
+}
+
+.prev {
+	left: 0;
+	background-position: 0 0;
+}
+
+.next {
+	right: 0;
+	background-position: -38px 0;
+}
+
+/********************About********************************/
+
+#about {
+	background-color: white;
+	color: #9E9E9E;
+	background-color: white;
+	width: 960px;
+	height: 250px;
+	margin: 0 auto;
+	
+}
+
+#about h1 {
+	font-size: 2.5em; 
+	color: #9E9E9E;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+	width: 960px;
+}
+
+#about p {
+	width: 85%;
+  	text-align: left;
+	font-size: 1.25em; 
+	margin: 0 auto;
+}
+
+#block {
+  width: 960px;
+  height: 150px;
+  background-color: #181918;
+  color: #FFE347;
+  margin: 0 auto;
+}
+
+#block h1 {
+	clear: both;
+	line-height: 150px;
+}
+
+.rating span:hover {
+   content: "\2605";
+   position: absolute;
+}
+
+/*.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}*/
+
+
+.rating h1 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*********************Mockups******************************/
+
+#mockups {
+	clear: both;
+	background-color: #1C1C1C;
+	width: 960px;
+	margin: 0 auto;  
+	color: #9E9E9E;
+	overflow: hidden;
+	background-color: white; 
+	text-align: center;
+
+}
+
+#mockups h1 {
+	font-size: 2.5em; 
+	color: #9E9E9E;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+	width: 960px;
+	margin-bottom: 0; 
+	overflow: hidden; 
+}
+
+#mockups h3 {
+	text-align: center; 
+}
+
+#mockups .boxes {
+	width: 23%;
+	height: 260px;
+	padding: 40px; 
+	float: left;
+	display: inline-block; 
+	background-color: white;
+}
+
+.boxes span:hover {
+	color: #FFE347;
+}
+
+
+.wearables {
+	color: #9E9E9E;
+	background-color: white; 
+	width: 960px; 
+	margin: 0 auto; 
+	text-align: center; 
+}
+
+.wearables h3 {
+	font-size: 2.5em; 
+	color: #9E9E9E;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+}
+
+.wearables p {
+  width: 85%;
+  text-align: left;
+  font-size: 1.25em;
+  margin: 0 auto;
+}
+
+
+/*********************Features******************************/
+
+#modality {
+	clear: both;
+	width: 960px;
+	height: 500px;
+	margin: -20px auto;
+	background-color: white;
+	color: #9E9E9E;
+    padding-top: 80px;
+}
+
+#modality h3 {
+	font-size: 2.5em; 
+	color: #9E9E9E;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+}
+
+#modality p {
+  width: 85%;
+  text-align: left;
+  font-weight: lighter;
+  margin: 0 auto;
+}
+
+.modality {
+	float: left;
+}
+
+#squares {
+	margin: 0 auto; 
+}
+
+#kayak, #outrigger, #cayuco, #standup {
+	color: #9E9E9E;
+	border: 3px solid #9E9E9E;
+	border-radius: 2em;
+	padding: .7em 1.7em;
+	height: 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#standup:hover, #cayuco:hover, #outrigger:hover, #kayak:hover {
+	color: #FFE347;
+	border: 3px solid #FFE347;
+	border-radius: 2em;
+	padding: .7em 1.7em;
+	height: 1em;
+	cursor: pointer; 
+	margin: 0 auto;
+}
+
+#signup {
+  width: 960px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  color: #FFE347;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #939E9E;
+}
+
+#signup span {
+  padding-right: 10px;
+}
+
+#signup button {
+  padding: 2px 20px;
+  margin-left: 5px;
+  border-radius: 10%;
+  color: grey;
+}
+
+#signup button:hover, button:active {
+	color: #FFE347;
+	border: 2px solid #FFE347;
+	border-radius: 10%; 
+}
+
+
+
+/******************comments**********************************/
+
+#comments {
+	clear: both;
+	width: 960px;
+	height: 200px;
+	margin: -20px auto;
+	background-color: white;
+	color: #9E9E9E;
+}
+
+#comments p {
+	width: 50%;
+	float: right;
+	padding-right: 40px;
+	font-weight: lighter;
+}
+
+/*********************kickstarter button**********************/
+
+#kickstarter {
+	color: #9E9E9E;
+	background-color: white;
+	height: 150px;
+	font-size: 2em; 
+	width: 960px;
+    margin: 0 auto;
+    padding: 20px auto; 
+}
+
+#kickstarter p {
+	float: left;
+	padding-left: 8%;
+}
+
+#kickstarter img {
+	float: right;
+	width: 400px;
+	padding-left: 20px;
+}
+
+#kickstarter span a {
+	color: #FFE347;
+}
+
+
+
+
+
+/**********************footer********************************/
+
+footer {
+	clear:both;
+	background-color: #181918;
+	height: 400px;
+	width: 1407px;
+}
+
+#boxes {
+	display: block;
+	margin: 0 auto; 
+	padding: 0 40px; 
+	color: #FFE347;
+	width: 960px;
+}
+
+#box1 {
+	float: left;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	margin-right: 20px;
+	width: 30%; 
+}
+
+#box1 p:hover {
+	color: white;
+	font-weight: 200; 
+	cursor: pointer;
+}
+
+#box2 {
+	float: left;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 100;
+  	width: 30%; 
+
+}
+
+#box2 p:hover {
+	color: white;
+	font-weight: 200; 
+	cursor: pointer;
+}
+
+#box3 {
+	float: left;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 100;
+  	width: 30%; 
+}
+
+#box3 a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	color: #FFE347;
+	padding: 10px;
+}
+
+#box3 li {
+	list-style-type: none;
+	text-align: left; 
+}
+
+#box3 a:hover {
+	color: white;
+}
+
+#download {
+	clear: both;
+  	margin: 0 40px;
+  	text-align: center;
+ 	display: block;
+  	padding: 20px;
+}
+
+#download img {
+	width: 150px; 
+}
+
+#copy p {
+	clear: both;
+	text-align: center;
+	color: #FFE347;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+	margin: 0 auto;
+}
+
+
