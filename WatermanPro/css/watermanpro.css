@@ -34,6 +34,7 @@ h1 {
 header nav {
 	float: right;
 	padding-right: 80px;
+	color: #cccccc;
 }
 
 header nav a {
@@ -41,16 +42,11 @@ header nav a {
 	color: #cccccc;
 	padding: 20px 30px; 
 	text-decoration: none; 
-	display: inline-block;
 	margin-top: 10px; 
 }
 
 header nav a:hover {
 	color: #FFE347;
-	border: 3px solid #FFE347;
-	border-radius: 2em;
-	padding: .7em 1.7em;
-	height: 1em;
 }
 
 /*  padding: .7em 1.7em;
@@ -64,10 +60,8 @@ header nav a:hover {
 
 
 header nav a:active {
-	color: black;
-	border: 2px solid #FFE347;
-	border-radius: 15px;
-	height: 1em;
+	color: #FFE347;
+	border-bottom: 2px solid #FFE347;
 }
 
 section {
@@ -233,6 +227,7 @@ section {
 	width: 960px; 
 	margin: 0 auto; 
 	text-align: center; 
+	padding-top: 30px;
 }
 
 .wearables h3 {
@@ -354,7 +349,7 @@ section {
 #comments p {
 	width: 50%;
 	float: right;
-	padding-right: 40px;
+	margin-right: 15%;
 	font-weight: lighter;
 }
 
