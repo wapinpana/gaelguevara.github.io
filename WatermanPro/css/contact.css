@@ -340,17 +340,13 @@ section {
 /******************comments**********************************/
 #contact {
 	float: left;
-	padding: 5%;
-	display: block;
+	padding: 0 0 0 10%;
+    width: 50%;
+    display: block;
 }
 
 #comments {
-	width: 960px;
-	height: 200px;
-	margin: -20px auto;
-	background-color: white;
-	color: #9E9E9E;
-	float: right;
+	float: left;
 }
 
 /*********************kickstarter button**********************/
