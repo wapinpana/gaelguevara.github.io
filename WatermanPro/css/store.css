@@ -150,7 +150,7 @@ section {
 #block {
   width: 960px;
   height: 150px;
-  background-color: #9E9E9E;
+  background-color: #181918;
   color: #FFE347;
   margin: 0 auto;
 }
@@ -215,7 +215,7 @@ section {
 	float: left;
 	display: inline-block; 
 	background-color: white;
-	color: #9E9E9E;
+	color: black;
 }
 
 
@@ -274,7 +274,7 @@ section {
 #modality p {
   width: 85%;
   text-align: left;
-  font-size: 1.25em; 
+  font-weight: lighter;
   margin: 0 auto;
 }
 
@@ -290,19 +290,6 @@ section {
 
 #squares {
 	margin: 0 auto; 
-}
-
-#kayak, #outrigger, #cayuco, #standup {
-	color: #9E9E9E;
-	height: 1em;
-	margin: 0 auto;
-	text-align: center;
-}
-
-#standup:hover, #cayuco:hover, #outrigger:hover, #kayak:hover {
-	color: #FFE347;
-	cursor: pointer; 
-	margin: 0 auto;
 }
 
 #signup {
@@ -340,17 +327,13 @@ section {
 /******************comments**********************************/
 #contact {
 	float: left;
-	padding: 5%;
-	display: block;
+	padding: 0 0 0 10%;
+    width: 50%;
+    display: block;
 }
 
 #comments {
-	width: 960px;
-	height: 200px;
-	margin: -20px auto;
-	background-color: white;
-	color: #9E9E9E;
-	float: right;
+	float: left;
 }
 
 /*********************kickstarter button**********************/
