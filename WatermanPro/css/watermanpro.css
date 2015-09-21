@@ -20,8 +20,9 @@ header {
 	position:fixed;
     top:0;
     left:0;
-    width: 1407px;
+    width: 100%;
     opacity: .90;
+    margin: 0px auto;
 }
 
 h1 {
@@ -35,6 +36,7 @@ header nav {
 	float: right;
 	padding-right: 80px;
 	color: #cccccc;
+	overflow: hidden;
 }
 
 header nav a {
@@ -201,7 +203,6 @@ section {
 	text-align: center;
 	width: 960px;
 	margin-bottom: 0; 
-	overflow: hidden; 
 }
 
 #mockups h3 {
@@ -210,7 +211,6 @@ section {
 
 #mockups .boxes {
 	width: 23%;
-	height: 260px;
 	padding: 5%; 
 	float: left;
 	display: inline-block; 
@@ -290,9 +290,10 @@ section {
 
 #squares {
 	margin: 0 auto; 
+	padding-bottom: 15%;
 }
 
-#kayak, #outrigger, #cayuco, #standup {
+/*#kayak, #outrigger, #cayuco, #standup {
 	color: #9E9E9E;
 	height: 1em;
 	margin: 0 auto;
@@ -303,7 +304,7 @@ section {
 	color: #FFE347;
 	cursor: pointer; 
 	margin: 0 auto;
-}
+}*/
 
 #signup {
   width: 960px;
@@ -350,7 +351,15 @@ section {
 	margin: -20px auto;
 	background-color: white;
 	color: #9E9E9E;
-	float: right;
+	
+}
+
+#comments img {
+	float: left;
+}
+
+#comments p {
+	text-align: center; 
 }
 
 /*********************kickstarter button**********************/
