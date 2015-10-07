@@ -288,23 +288,15 @@ section {
 	text-align: center;
 }
 
+.modality img {
+	padding: 2%;
+}
+
 #squares {
 	margin: 0 auto; 
 	padding-bottom: 15%;
+	overflow: hidden;
 }
-
-/*#kayak, #outrigger, #cayuco, #standup {
-	color: #9E9E9E;
-	height: 1em;
-	margin: 0 auto;
-	text-align: center;
-}
-
-#standup:hover, #cayuco:hover, #outrigger:hover, #kayak:hover {
-	color: #FFE347;
-	cursor: pointer; 
-	margin: 0 auto;
-}*/
 
 #signup {
   width: 960px;
@@ -348,7 +340,7 @@ section {
 #comments {
 	width: 960px;
 	height: 200px;
-	margin: -20px auto;
+	margin: 0px auto;
 	background-color: white;
 	color: #9E9E9E;
 	
@@ -356,10 +348,28 @@ section {
 
 #comments img {
 	float: left;
+	width: 10%;
 }
 
 #comments p {
 	text-align: center; 
+	padding: 10%;
+	width: 70;
+}
+
+#testimonial {
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px; 
+}
+
+#testimonial img {
+	float: left;
+	width: 10%; 
+}
+
+#testimonial p {
+	width: 40%;
 }
 
 /*********************kickstarter button**********************/
