@@ -23,6 +23,8 @@ header {
     width: 100%;
     opacity: .90;
     margin: 0px auto;
+    background: #181918;
+    z-index: 10; 
 }
 
 h1 {
@@ -70,7 +72,7 @@ section {
 	background-color: #E5E5E5;
 	width: 1407px;
 	background-size: cover;
-	overflow: hidden;
+	overflow: auto;
 }
 
 
@@ -408,7 +410,7 @@ section {
 footer {
 	clear:both;
 	background-color: #181918;
-	height: 400px;
+	height: 430px;
 	width: 1407px;
 }
 
@@ -466,10 +468,11 @@ footer {
 	padding: 10px;
 }
 
-#box3 li {
+/*#box3 span {
 	list-style-type: none;
 	text-align: left; 
-}
+	color: white;
+}*/
 
 #box3 a:hover {
 	color: white;
