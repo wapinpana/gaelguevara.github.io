@@ -6,9 +6,16 @@
 		<meta name="author" content="Gael Gundin Guevara">
 		<meta name="description" content="performance tracking platform site designed for professional and amateur waterman">
 		<meta name="copyright" content="2015 WatermanPro">
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    	<!-- Bootstrap -->
+    	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/watermanpro.css">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -41,7 +48,6 @@
 						<p><span style="color: #FFE347">Waterman Pro </span>is the first online performance tracking platform designed for professional and amateur waterman.   A global community of paddlers coming together and training smarter. 
 				</div>
 				<div id="block">
-					
 					<div class="rating">
 					<h1>"Best Paddle Sports Training App!" - &#9734;&#9734;&#9734;&#9734;&#9734;</h1>
 					</div>
@@ -60,45 +66,63 @@
 						<span style="text-align: center" class="fa fa-globe fa-4x"></span>
 						<p>See how you rank in different disciplines amongst pro and amateur waterman around the world.</p>
 					</div>
-					<img src="images/mobilepic.png">
+					<div id="mobile">
+						<img src="images/mobilepic.png">
+					</div>
 				</div>
 				<div class="wearables">
 					<h3><span style="color: #FFE347">Paddling</span>  |    Tracker</h3>
 					<p>Load your performance stats from your favorite fit wearable device.  Compile an overview of your stats both from your indoor ergonometer session or your latest outdoor challenge all in one place.</p>
 					<img style="width: 600px; padding-top: 5%" src="https://heavyeditorial.files.wordpress.com/2015/06/fitbit-vs-garmin.jpg?quality=65&strip=all">
 				</div>
+				<div class="map">
+					<h3>World Ranking</h3>
+					<img src="images/worldmap.png" style="margin: 0 auto">
 				</div>
+
 				<div id="modality">
 					<h3><span style="color: #FFE347">Indoor</span>  |    Outdoor</h3>
-					<p>Train anywhere you want and track your stats.  Go beyond your comfort zone and try a new paddling sport and see how you compare.  A great waterman does not specialize.</p>
-					<div id="squares">
-						<div id="top">
-							<div id="kayak" class="modality">
-								<img src="images/kayak.png">
+					<p>Train anywhere you want and track your stats.  Go beyond your comfort zone and try a new paddling sport and see how you compare.</p>
+					<div id="myCarousel" class="carousel slide" data-interval="5000">
+						<div class="carousel-inner">
+							<div class="item modality active">
+								<img src="images/standup.png"/>
+								<p>Stand-Up</p>
 							</div>
-							<div id="outrigger" class="modality">
-								<img src="images/outrigger.png">
+							<div class="item modality">
+								<img src="images/cayuco.png"/>
+								<p>Cayuco</p>
 							</div>
-						</div>
-						<div id="bot">
-							<div id="cayuco" class="modality">
-								<img src="images/cayuco.png">
+							<div class="item modality">
+								<img src="images/kayak.png"/>
+								<p>Kayak</p>
 							</div>
-							<div id="standup" class="modality">
-								<img src="images/standup.png">
+							<div class="item modality">
+								<img src="images/outrigger.png"/>
+								<p>Outrigger</p>
 							</div>
+							 <!-- Controls -->
+							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+
+							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
 						</div>
 					</div>
 				</div>
-				<div id="comments">
-					<div id="testimonial">
-						<img src="images/gaelshaka.jpg" style="border-radius: 50%; width: 100px; text-align: center">
-						<p>"Best way to keep track of all of your paddling stats and know how you stack up to the best in the world.  Waterman Pro gave me a better sense of where I stand in my training and what I need to do to get better."</p>
-					</div>
+				<div id="testimonial">
+					<img src="images/gaelshaka.jpg" style="border-radius: 50%; width: 100px">
+					<p>"Best way to keep track of all of your paddling stats and know how you stack up to the best in the world.  Waterman Pro gave me a better sense of where I stand in my training and what I need to do to get better."</p>
 				</div>
 				<div id="signup">
-					<span>Register for the beta version</span><input style="font-size: 12px, width:250px" placeholder="Enter Your Email Here"></input><button>Sign Up</button>
+					<span>Register for the beta version</span><input type="email" class=" form-textbox validate[Email]" id="input_3" name="q3_email3" size="30" value="" placeholder="ex: myname@example.com">
+					<button id="input_2" type="submit" class="form-submit-button">
+              		Submit
+            		</button>
 				</div>
+
 				<div id="kickstarter">
 					<p>Click <span><a href="#">Here</a></span> to Support Us on<img src="images/kickstarter.png" alt="kickstarterlogo"></p>
 				</div>
@@ -106,14 +130,17 @@
 		</section>
 		<footer>
 			<div id="boxes">
+				<div id="box0">
+					<img src="images/watermanLogosingle.png" style="width: 30px">
+				</div>		
 				<div id="box1">
 					<h3>WatermanPro</h3>
 					<p>About</p>
 					<p>Join Our Team</p>
 					<p>Advertise Here</p>
 					<p>Contact Us</p>
-					<p><span class="fa fa-envelope fa-lg"></span>&nbsp;<mailto:>info@watermanpro.io</p>
-					<p><span class="fa fa-phone fa-lg"></span>&nbsp;Tel: 1800-WATERMAN</p>
+					<p><span class="fa fa-envelope fa-lg"></span><a href="mailto:info@watermanpro.io"></a>&nbsp;info@watermanpro.io</p>
+					<p><span class="fa fa-whatsapp fa-lg"></span>&nbsp;Tel: 1800-WATERMAN</p>
 				</div>
 				<div id="box2">
 					<h3>Features</h3>
@@ -140,5 +167,12 @@
 		</footer>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="watermanpro.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	    <script type="text/javascript">
+	    $(document).ready(function(){
+	        $('.carousel').carousel();
+		    });
+		</script>
 	</body>
 </html>
