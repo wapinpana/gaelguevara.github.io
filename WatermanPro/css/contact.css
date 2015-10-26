@@ -29,6 +29,13 @@ h1 {
 	float: left;
 	line-height: inherit;
 	padding-left: 80px;
+    padding-right: 10px;
+}
+
+h3 {
+	font-size: 1.17em;
+    margin: 1em 0;
+    padding-top: 15px;
 }
 
 header nav {
@@ -57,8 +64,6 @@ header nav a:hover {
   color: #fff;
   border: 3px solid #fff;*/
 
-
-
 header nav a:active {
 	color: #FFE347;
 	border-bottom: 2px solid #FFE347;
@@ -69,82 +74,6 @@ section {
 	width: 1407px;
 	background-size: cover;
 	overflow: hidden;
-}
-
-
-/*********************Slider********************************/
-
-#slider {
-	width: 960px;
-	height: 630px;
-	text-align: center;
-	margin: 0 auto; 
-	overflow: hidden; 
-	position: relative;
-	border-bottom: 2px solid #FFE347;
-}
-
-#slider img {
-	display: none;
-	position: absolute;
-	width: 960px;
-	height: 560px;
-	margin-top: 80px; 
-	text-align: center;
-}
-
-#slider img.current {
-	display: block;
-}
-
-.prev, .next {
-	position: absolute;
-	background: url("../images/arrows.gif");
-	background-repeat: no-repeat;
-	opacity: .6;
-	height: 61px;
-	width: 38px;
-	top: 50%; 
-	margin-top: -30px;
-}
-
-.prev {
-	left: 0;
-	background-position: 0 0;
-}
-
-.next {
-	right: 0;
-	background-position: -38px 0;
-}
-
-/********************About********************************/
-
-#about {
-	background-color: white;
-	color: #9E9E9E;
-	background-color: white;
-	width: 960px;
-	height: 250px;
-	margin: 0 auto;
-	
-}
-
-#about h1 {
-	font-size: 2.5em; 
-	color: #9E9E9E;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-	padding: 10px;
-	text-align: center;
-	width: 960px;
-}
-
-#about p {
-	width: 85%;
-  	text-align: left;
-	font-size: 1.25em; 
-	margin: 0 auto;
 }
 
 #block {
@@ -161,181 +90,13 @@ section {
 	margin: 0 6%;
 }
 
-.rating span:hover {
-   content: "\2605";
-   position: absolute;
-}
-
-/*.rating > span:hover:before {
-   content: "\2605";
-   position: absolute;
-}*/
-
-
-.rating h1 {
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-/*********************Mockups******************************/
-
-#mockups {
-	clear: both;
-	background-color: #1C1C1C;
-	width: 960px;
-	margin: 0 auto;  
-	color: #9E9E9E;
-	overflow: hidden;
-	background-color: white; 
-	text-align: center;
-
-}
-
-#mockups h1 {
-	font-size: 2.5em; 
-	color: #9E9E9E;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-	padding: 5% 0;
-	text-align: center;
-	width: 960px;
-	margin-bottom: 0; 
-	overflow: hidden; 
-}
-
-#mockups h3 {
-	text-align: center; 
-}
-
-#mockups .boxes {
-	width: 23%;
-	height: 260px;
-	padding: 5%; 
-	float: left;
-	display: inline-block; 
-	background-color: white;
-	color: black;
-}
-
-
 .boxes span:hover {
 	color: #FFE347;
-}
-
-
-.wearables {
-	color: #9E9E9E;
-	background-color: white; 
-	width: 960px; 
-	margin: 0 auto; 
-	text-align: center; 
-	padding-top: 30px;
-}
-
-.wearables h3 {
-	font-size: 2.5em; 
-	color: #9E9E9E;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-	padding: 10px;
-	text-align: center;
-}
-
-.wearables p {
-  width: 85%;
-  text-align: left;
-  font-size: 1.25em;
-  margin: 0 auto;
-}
-
-
-/*********************Features******************************/
-
-#modality {
-	clear: both;
-	width: 960px;
-	height: 700px;
-	margin: 0 auto;
-	background-color: white;
-	color: #9E9E9E;
-    padding-top: 80px;
-}
-
-#modality h3 {
-	font-size: 2.5em; 
-	color: #9E9E9E;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-	padding: 10px;
-	text-align: center;
-}
-
-#modality p {
-  width: 85%;
-  text-align: left;
-  font-weight: lighter;
-  margin: 0 auto;
-}
-
-#modality img {
-	width: 90%;
-	padding: 5%; 
-}
-
-.modality {
-	float: left;
-	text-align: center;
 }
 
 #squares {
 	margin: 0 auto; 
 }
-
-#kayak, #outrigger, #cayuco, #standup {
-	color: #9E9E9E;
-	height: 1em;
-	margin: 0 auto;
-	text-align: center;
-}
-
-#standup:hover, #cayuco:hover, #outrigger:hover, #kayak:hover {
-	color: #FFE347;
-	cursor: pointer; 
-	margin: 0 auto;
-}
-
-#signup {
-  width: 960px;
-  height: 100px;
-  line-height: 100px;
-  margin: 0 auto;
-  color: #FFE347;
-  font-family: "Lato", Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #939E9E;
-}
-
-#signup span {
-  padding-right: 10px;
-}
-
-#signup button {
-  padding: 2px 20px;
-  margin-left: 5px;
-  border-radius: 10%;
-  color: grey;
-}
-
-#signup button:hover, button:active {
-	color: #FFE347;
-	border: 2px solid #FFE347;
-	border-radius: 10%; 
-}
-
-
 
 /******************comments**********************************/
 #contact {
@@ -343,10 +104,6 @@ section {
 	padding: 0 0 0 10%;
     width: 50%;
     display: block;
-}
-
-#comments {
-	float: left;
 }
 
 /*********************kickstarter button**********************/
@@ -375,10 +132,6 @@ section {
 #kickstarter span a {
 	color: #FFE347;
 }
-
-
-
-
 
 /**********************footer********************************/
 

@@ -68,11 +68,14 @@ header nav a:active {
 	border-bottom: 2px solid #FFE347;
 }
 
+div .socialbutton {
+	width: 65px;
+	height: 65px;
+}
+
 section {
 	background-color: white;
 	width: 1407px;
-	background-size: cover;
-	overflow: auto;
 }
 
 
@@ -368,7 +371,7 @@ section {
 
 .map img {
 	width: 960px;
-    padding: 0 15%;
+    padding: 0 18%;
 }
 
 .map h3 {
