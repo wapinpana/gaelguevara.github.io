@@ -75,7 +75,7 @@ div .socialbutton {
 
 section {
 	background-color: white;
-	width: 1407px;
+	width: 100%;
 }
 
 
@@ -452,6 +452,10 @@ footer {
 	width: 20%; 
 	text-decoration: none;
 	margin-right: 70px;
+}
+
+#box1 p {
+	text-decoration: none; 
 }
 
 #box0 {
