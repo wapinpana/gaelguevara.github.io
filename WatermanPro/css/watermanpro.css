@@ -307,11 +307,6 @@ section {
 	color: #9E9E9E;
 }
 
-/*#kayak {
-	width: 30%; 
-	margin: 20px; 
-}*/
-
 #signup {
   width: 100%;
   height: 200px;
@@ -327,6 +322,10 @@ section {
 
 #signup span {
   padding-right: 10px;
+}
+
+#signup input {
+	padding: 30px;
 }
 
 #signup button {
