@@ -208,8 +208,8 @@ section {
 }
 
 #mockups .boxes {
-	width: 23%;
-	padding: 5%; 
+	width: 33%;
+    padding: 3%; 
 	float: left;
 	display: inline-block; 
 	background-color: white;
