@@ -20,7 +20,7 @@ header {
 	position:fixed;
     top:0;
     left:0;
-    width: 1407px;
+    width: 100%;
     opacity: .90;
 }
 
@@ -138,8 +138,8 @@ section {
 footer {
 	clear:both;
 	background-color: #181918;
-	height: 400px;
-	width: 1407px;
+	height: 480px;
+	width: 100%; 
 }
 
 #boxes {
