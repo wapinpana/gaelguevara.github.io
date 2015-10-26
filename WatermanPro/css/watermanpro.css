@@ -396,13 +396,14 @@ section {
 #kickstarter p {
 	float: left;
 	padding-left: 7%;
-	line-height: 170px; 
+	line-height: 250px; 
 }
 
 #kickstarter img {
 	float: right;
 	width: 400px;
-	padding: 50px;
+	padding: 10px;
+    margin-top: 13%;
 }
 
 #kickstarter span a {
