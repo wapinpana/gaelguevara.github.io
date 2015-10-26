@@ -369,7 +369,6 @@ section {
 
 .map img {
 	width: 960px;
-    padding: 0 18%;
 }
 
 .map h3 {
@@ -379,6 +378,13 @@ section {
 	font-weight: 500;
 	padding: 10px;
 	text-align: center;
+}
+
+.map p {
+  width: 85%;
+  text-align: center;
+  font-size: 1.25em; 
+  margin: 0 auto;
 }
 
 /*********************kickstarter button**********************/
