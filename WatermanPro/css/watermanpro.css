@@ -324,10 +324,6 @@ section {
   padding-right: 10px;
 }
 
-#signup input {
-	padding: 30px;
-}
-
 #signup button {
   padding: 2px 20px;
   margin-left: 5px;
@@ -339,6 +335,10 @@ section {
 	color: #FFE347;
 	border: 2px solid #FFE347;
 	border-radius: 10%; 
+}
+
+.bar {
+	margin: 20px;
 }
 
 /******************comments**********************************/
