@@ -253,10 +253,13 @@ section {
 .download {
 	padding: 20px;
 	color: #9E9E9E;
-
+	font-weight: bold;
 }
-	.download span {
+
+.download span {
 	color: #FFE347;
+	text-align: center;
+	padding: 20px; 
 }
 
 /*********************Features******************************/
@@ -348,6 +351,7 @@ section {
 
 .bar {
 	margin: 20px;
+	padding: 80px; 
 }
 
 /******************comments**********************************/
@@ -367,7 +371,7 @@ section {
 #testimonial img {
 	float: left;
 	display: block;
-	margin: 80px 40px 20px 60px;
+	margin: 60px 40px 20px 60px;
 }
 
 #testimonial p {
