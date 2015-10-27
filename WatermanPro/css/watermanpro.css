@@ -576,6 +576,10 @@ footer {
 	color: white;
 }
 
+#box4 {
+	float: left;
+}
+
 #download {
 	clear: both;
   	margin: 0 40px;
