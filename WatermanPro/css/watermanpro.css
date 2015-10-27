@@ -9,6 +9,9 @@
 /*                                  */
 /************************************/
 
+html {
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -358,6 +361,7 @@ section {
 
 .download {
 	color: #9E9E9E;
+	margin: 0 auto;
 }
 
 .download h1 span {
@@ -370,9 +374,10 @@ section {
 
 .download span {
 	text-align: center;
-	padding-right: 100px; 
+	padding-right: 50px; 
     display: block;
     float: left;
+    width: 100px;
 }
 
 /******************comments**********************************/
