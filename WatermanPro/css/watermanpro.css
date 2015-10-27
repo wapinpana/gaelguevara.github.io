@@ -368,7 +368,8 @@ section {
 }
 
 .map img {
-	width: 960px;
+	width: 850px;
+	display: block;
 }
 
 .map h3 {
@@ -382,6 +383,7 @@ section {
 
 .map p {
   width: 85%;
+  color: #9E9E9E;
   text-align: center;
   font-size: 1.25em; 
   margin: 0 auto;
