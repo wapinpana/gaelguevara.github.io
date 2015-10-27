@@ -333,10 +333,11 @@ section {
   margin-left: 5px;
   border-radius: 10%;
   color: #fff;
+  text-decoration: none; 
 }
 
 #signup button:hover, button:active {
-	color: #FFE347;
+	color: white;
 	border: 2px solid #FFE347;
 	border-radius: 10%; 
 }
@@ -374,6 +375,7 @@ section {
 
 #testimonial {
 	width: 960px;
+	margin: 0 auto;
 	background-color: white;
 }
 
