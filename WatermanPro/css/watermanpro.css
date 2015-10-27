@@ -260,6 +260,8 @@ section {
 	color: #FFE347;
 	text-align: center;
 	padding: 20px; 
+    display: block;
+    float: left;
 }
 
 /*********************Features******************************/
@@ -380,6 +382,9 @@ section {
     color: #9E9E9E;
 }
 
+.map {
+	clear: both;
+}
 .map img {
 	width: 850px;
 	display: block;
