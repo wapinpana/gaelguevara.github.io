@@ -284,7 +284,11 @@ section {
 }
 
 #modality img:hover {
-	width: 240px; 
+	width: 225px; 
+}
+
+#modality span:hover {
+	color: #FFE347
 }
 
 .modality {
@@ -379,8 +383,10 @@ section {
 }
 
 #testimonial {
+	clear: both;
 	width: 960px;
 	margin: 0 auto;
+	padding-top: 50px;
 	background-color: white;
 }
 
