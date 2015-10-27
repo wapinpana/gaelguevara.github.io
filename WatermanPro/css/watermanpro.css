@@ -515,6 +515,10 @@ footer {
 	color: #FFE347; 
 }
 
+#box1 a:hover {
+	color: white; 
+}
+
 #box0 {
     width: 4%;
     height: 20%;
