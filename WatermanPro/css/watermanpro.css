@@ -255,7 +255,6 @@ section {
 #modality {
 	clear: both;
 	width: 960px;
-	height: 700px;
 	margin: 0 auto;
 	background-color: white;
 	color: #9E9E9E;
@@ -279,8 +278,13 @@ section {
 }
 
 #modality img {
-	width: 70%;
-	padding: 5%; 
+	width: 220px; 
+	padding: 5px; 
+	padding-top: 50px; 
+}
+
+#modality img:hover {
+	width: 240px; 
 }
 
 .modality {
@@ -369,10 +373,8 @@ section {
 }
 
 #testimonial {
-	margin: 0 auto;
 	width: 960px;
 	background-color: white;
-	padding: 20px 0;
 }
 
 #testimonial img {
