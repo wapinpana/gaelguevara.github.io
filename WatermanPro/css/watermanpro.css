@@ -384,9 +384,9 @@ section {
 .map p {
   width: 85%;
   color: #9E9E9E;
-  text-align: center;
   font-size: 1.25em; 
   margin: 0 auto;
+  text-align: left;
 }
 
 /*********************kickstarter button**********************/
