@@ -159,6 +159,11 @@ footer {
 	width: 30%; 
 }
 
+#box1 a {
+	text-decoration: none;
+	color: #FFE347; 
+}
+
 #box1 p:hover {
 	color: white;
 	font-weight: 200; 
@@ -185,7 +190,7 @@ footer {
 	margin-top: 20px;
 	font-family: 'Lato', sans-serif;
   	font-weight: 100;
-  	width: 30%; 
+  	width: 20%; 
 }
 
 #box3 a {
@@ -193,12 +198,7 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100; 
 	color: #FFE347;
-	padding: 10px;
-}
-
-#box3 li {
-	list-style-type: none;
-	text-align: left; 
+	padding: 10px 10px 0 0;
 }
 
 #box3 a:hover {
