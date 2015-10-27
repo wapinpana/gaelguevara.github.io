@@ -250,10 +250,13 @@ section {
 	padding: 50px 0;
 }
 
-.download span {
+.download {
 	padding: 20px;
 	color: #9E9E9E;
 
+}
+	.download span {
+	color: #FFE347;
 }
 
 /*********************Features******************************/
