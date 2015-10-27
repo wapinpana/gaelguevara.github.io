@@ -259,7 +259,7 @@ section {
 .download span {
 	color: #FFE347;
 	text-align: center;
-	padding: 20px; 
+	padding: 0 100px; 
     display: block;
     float: left;
 }
@@ -405,6 +405,12 @@ section {
   font-size: 1.25em; 
   margin: 0 auto;
   text-align: left;
+}
+
+button {
+	background-color: #9E9E9E;
+	color: #FFE347;
+	border-radius: 5%;
 }
 
 /*********************kickstarter button**********************/
