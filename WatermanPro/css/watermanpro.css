@@ -18,6 +18,11 @@ body {
 	background: white; 
 }
 
+a {
+	color: #fff;
+	text-decoration: none; 
+}
+
 header {
 	background-color: #181918; 
 	position:fixed;
@@ -140,12 +145,12 @@ section {
 
 #about h1 {
 	font-size: 2.5em; 
+	width: 960px;
 	color: #9E9E9E;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	padding: 10px;
 	text-align: center;
-	width: 960px;
 }
 
 #about p {
