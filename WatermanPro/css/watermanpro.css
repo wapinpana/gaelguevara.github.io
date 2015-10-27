@@ -250,20 +250,6 @@ section {
 	padding: 50px 0;
 }
 
-.download {
-	padding: 20px;
-	color: #9E9E9E;
-	font-weight: bold;
-}
-
-.download span {
-	color: #FFE347;
-	text-align: center;
-	padding: 0 100px; 
-    display: block;
-    float: left;
-}
-
 /*********************Features******************************/
 
 #modality {
@@ -354,6 +340,25 @@ section {
 .bar {
 	margin: 20px;
 	padding: 80px; 
+}
+
+.download {
+	padding: 20px;
+	color: #9E9E9E;
+	font-weight: bold;
+    padding: 100px 0;
+    margin: 100px 250px;
+}
+
+.download h1 {
+	padding-right: 80px;
+}
+
+.download span {
+	text-align: center;
+	padding-right: 100px; 
+    display: block;
+    float: left;
 }
 
 /******************comments**********************************/
