@@ -297,6 +297,10 @@ section {
 	width: 70%;
 }
 
+.icons {
+	padding: 50px 0;
+}
+
 /***************************************************/
 
 #squares {
@@ -340,6 +344,7 @@ section {
 	color: white;
 	border: 2px solid #FFE347;
 	border-radius: 10%; 
+	text-decoration: none; 
 }
 
 .bar {
@@ -348,11 +353,11 @@ section {
 }
 
 .download {
-	padding: 20px;
 	color: #9E9E9E;
-	font-weight: bold;
-    padding: 100px 0;
-    margin: 100px 250px;
+}
+
+.download h1 span {
+	margin: 0 0 50px 0; 
 }
 
 .download h1 {
