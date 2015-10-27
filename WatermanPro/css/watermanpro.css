@@ -61,16 +61,6 @@ header nav a:hover {
 	color: #FFE347;
 }
 
-/*  padding: .7em 1.7em;
-  behavior: url("/js/lib/css3pie/1.0beta4/PIE.htc");
-  -webkit-border-radius: 2em;
-  -moz-border-radius: 2em;
-  border-radius: 2em;
-  color: #fff;
-  border: 3px solid #fff;*/
-
-
-
 header nav a:active {
 	color: #FFE347;
 	border-bottom: 2px solid #FFE347;
@@ -170,9 +160,17 @@ section {
 
 #block h1 {
 	clear: both;
-	line-height: 150px;
+	line-height: 100px;
 	margin: 0 20%;
 	text-align: center;
+}
+
+#block h3 {
+	font-weight: lighter;
+	float: right;
+	display: block; 
+	margin-right: 400px;
+    margin-top: 0;
 }
 
 .rating span:hover {
@@ -184,6 +182,7 @@ section {
 	text-align: center;
 	margin: 0 auto;
 }
+
 
 
 /*********************Mockups******************************/
@@ -352,7 +351,7 @@ section {
   text-decoration: none; 
 }
 
-#signup button:hover, button:active {
+#signup button:hover {
 	color: white;
 	border: 2px solid #FFE347;
 	border-radius: 10%; 
