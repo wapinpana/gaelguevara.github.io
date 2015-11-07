@@ -478,7 +478,8 @@ footer {
 	background-color: #181918;
 	height: 480px;
 	width: 100%;
-	
+	position: absolute;
+
 }
 
 #boxes {
