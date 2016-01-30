@@ -1,0 +1,267 @@
+/************************************/
+/*          WatermanPro             */
+/*              by                  */
+/*      Gael Gundin Guevara         */
+/*                                  */
+/*          Version 1.0             */
+/*                                  */
+/*                                  */
+/*                                  */
+/************************************/
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	background: white; 
+	width: 1250px;
+}
+
+header {
+	background-color: #181918; 
+	position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    opacity: .90;
+}
+
+h1 {
+	color: #FFE347;
+	float: left;
+	line-height: inherit;
+	padding-left: 80px;
+}
+
+header nav {
+	float: right;
+	padding-right: 80px;
+	color: #cccccc;
+}
+
+header nav a {
+	display: inline-block;
+	color: #cccccc;
+	padding: 20px 30px; 
+	text-decoration: none; 
+	margin-top: 10px; 
+}
+
+header nav a:hover {
+	color: #FFE347;
+}
+
+/*  padding: .7em 1.7em;
+  behavior: url("/js/lib/css3pie/1.0beta4/PIE.htc");
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  color: #fff;
+  border: 3px solid #fff;*/
+
+header nav a:active {
+	color: #FFE347;
+	border-bottom: 2px solid #FFE347;
+}
+
+section {
+	background-color: #E5E5E5;
+	width: 1407px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 200px 0 100px 0;
+    background-color: white;
+}
+
+#wrapper img {
+	width: 30%;
+}
+
+section .items img {
+	float: left;
+	padding-right: 5%;
+	margin: 0 52px;
+}
+
+#signup {
+  width: 960px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  color: #FFE347;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #939E9E;
+}
+
+#signup span {
+  padding-right: 10px;
+}
+
+#signup button {
+  padding: 2px 20px;
+  margin-left: 5px;
+  border-radius: 10%;
+  color: grey;
+}
+
+#signup button:hover, button:active {
+	color: #FFE347;
+	border: 2px solid #FFE347;
+	border-radius: 10%; 
+}
+
+
+
+/******************comments**********************************/
+#contact {
+	float: left;
+	padding: 0 0 0 10%;
+    width: 50%;
+    display: block;
+}
+
+#comments {
+	float: left;
+}
+
+/*********************kickstarter button**********************/
+
+#kickstarter {
+	color: #9E9E9E;
+	background-color: white;
+	height: 150px;
+	font-size: 2em; 
+	width: 960px;
+    margin: 0 auto;
+    padding: 50px auto; 
+}
+
+#kickstarter p {
+	float: left;
+	padding-left: 8%;
+	margin: 100px 0;
+}
+
+#kickstarter img {
+	float: right;
+	width: 400px;
+	padding-left: 20px;
+	margin: 0 auto;
+}
+
+#kickstarter span a {
+	color: #FFE347;
+}
+
+
+
+
+
+/**********************footer********************************/
+
+footer {
+	clear:both;
+	background-color: #181918;
+	height: 480px;
+	width: 100%;
+	position: absolute;
+}
+
+#boxes {
+	display: block;
+	margin: 0 auto; 
+	padding: 0 40px; 
+	color: #FFE347;
+	width: 960px;
+}
+
+#box0 {
+    width: 4%;
+    height: 20%;
+    float: left;
+    margin-top: 35px;
+}
+
+#box1 a {
+	text-decoration: none;
+	color: #FFE347; 
+}
+
+#box1 {
+	float: left;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	margin-right: 20px;
+	width: 30%; 
+}
+
+#box1 p:hover {
+	color: white;
+	font-weight: 200; 
+	cursor: pointer;
+}
+
+#box2 {
+	float: left;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 100;
+  	width: 30%; 
+
+}
+
+#box2 p:hover {
+	color: white;
+	font-weight: 200; 
+	cursor: pointer;
+}
+
+#box3 {
+	float: left;
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 100;
+  	width: 20%; 
+}
+
+#box3 a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	color: #FFE347;
+	padding: 10px 10px 0 0;
+}
+
+#box3 a:hover {
+	color: white;
+}
+
+#download {
+	clear: both;
+  	margin: 0 40px;
+  	text-align: center;
+ 	display: block;
+  	padding: 20px;
+}
+
+#download img {
+	width: 150px; 
+}
+
+#copy p {
+	clear: both;
+	text-align: center;
+	color: #FFE347;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+	margin: 0 auto;
+}
+
+
